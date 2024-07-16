@@ -1,0 +1,53 @@
+.content-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.experience-container{
+    display: grid;
+    grid-template-columns: 2.8em auto auto;
+    width: fit-content;
+}
+.grid-item{
+    padding-right: 20px;
+    width: max-content;
+}
+.date-text{
+    font-size: 0.6em;
+    font-weight: 200;
+
+}
+.formats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.line{
+    height: 80px;
+    width: 0px;
+    border: 1px solid  white;
+}
+.text{
+    margin-top: -7px;
+}
+.text-title{
+    padding-top: 0px;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.text-subtitle{
+    font-size: 0.6em;
+    font-weight: 200;
+
+}
