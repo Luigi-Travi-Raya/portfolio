@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="form.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,16 +24,19 @@
                     Sobre mim
                 </div>
             </a>
+            <div class="line-between-btns"></div>
             <a href="projects.html" class="button-container">
                 <div>
                     Projetos
                 </div>
             </a>
+            <div class="line-between-btns"></div>
             <a href="experience.html" class="button-container">
                 <div>
                     Experiência
                 </div>
             </a>
+            <div class="line-between-btns"></div>
             <a href="form.html" class="button-container">
                 <div>
                     Contato
@@ -42,17 +46,23 @@
     </header>
 
     <div class="content-container">
-        <div class="project-container" onclick='window.location.href = "https://github.com/Luigi-Travi-Raya/TCC_delicias_online/tree/main"'>
-            <div class="thumbnail-container">
-                <img src="./public/img/logo.png" class="thumbnail">
+        <form class="form-container">
+            <div class="input-container">
+                <div class="input-name">Nome:</div>
+                <input class="input" type="text" name="name" id="name" required>
             </div>
-            <div class="text-info">
-                <h1 class="text-title">Delícias Online</h1>
-                <h3 class="text-subtitle">Projeto de TCC</h3>
-                <h5 class="text-description">Este projeto foi feito utilizando diversas tecnologias, como: NodeJS, expressJS, MySQL, PugJS, Sequelize, entre outras diversas tecnologias, além de utilizar a arquitetura MVC</h5>
+            <div class="input-container">
+                <div class="input-name">Email:</div>
+                <input class="input" type="email" name="email" id="email" required>
             </div>
-        </div>
-    </div>
+            <div class="input-container">
+                <div class="input-name">Mensagem:</div>
+                <textarea class="input" name="message" id="message" cols="30" rows="5" required></textarea>
+            </div>
+            <div class="input-container">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
 </body>
 
 </html>

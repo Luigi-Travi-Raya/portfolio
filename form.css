@@ -1,0 +1,52 @@
+.content-container{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw ;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 25vw;
+}
+input{
+    padding:0
+}
+.input-name{
+    font-size: 1.2em;
+}
+.input{
+    background-color: #272727;
+    padding: 3px;
+    appearance: none;
+    border: none;
+    border-radius: 2px;
+    color:#dbdbdb;
+    font-size: 1.2em;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.input-container{
+    width:100% ;
+}
+button{
+    margin-top: 1em;
+    width: 102%;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: #272727;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    transition: 0.3s;
+
+}
+button:hover{
+    background-color: #444444;
+    transition: 0.3s;
+}
